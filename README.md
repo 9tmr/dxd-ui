@@ -164,8 +164,8 @@ Drawing objects retain property caches to minimize writes. Unused drawings expir
 The release repository is `9tmr/dxd-ui`. Local development history is included in the downloadable Git bundle. Review [NOTICE.md](NOTICE.md) before redistributing. To connect a local checkout:
 
 ```sh
-git remote add origin https://github.com/9tmr/dxd-ui.git
-git push -u origin main
+git clone https://github.com/9tmr/dxd-ui.git
+cd dxd-ui
 ```
 
 Open the raw `dxd.lua` URL before using the loader. For anonymous `game:HttpGet`, the file must be publicly readable. Keep tokens out of Lua and out of URLs; do not add a private GitHub token to frontend scripts. No API secrets are needed. The published raw URL is checked against the local release SHA-256 during delivery.
@@ -185,6 +185,8 @@ Open the raw `dxd.lua` URL before using the loader. For anonymous `game:HttpGet`
 
 ## Assets and attribution
 
-Both portraits were generated for this project using the built-in image-generation tool. Source prompts and provenance are in [ASSET-PROMPTS.md](docs/ASSET-PROMPTS.md). Optimized 600×800 palette PNGs are embedded in the release. The reference REM bitmap and video are not redistributed. No anime screenshots, Pinterest downloads, third-party soundtrack, model, or font files are bundled. Host system fonts are used.
+Only existing media is included. Five anime media files were supplied by the user. Pixel Rias and Pixel Akeno are by Jarrid Lawson; the user confirmed permission for those matching sprites. Sources and transformations are documented in [ASSETS.md](docs/ASSETS.md). No AI-generated character imagery is included.
 
-This is an unofficial fan-themed interface; High School DxD character identities remain associated with their respective rights holders. User supply and confirmed sprite permission do not establish a blanket franchise license. REM-derived code attribution and the supplied archive's absent license are recorded in [NOTICE.md](NOTICE.md).
+![All included artwork](docs/artwork-sheet.png)
+
+Normal builds use committed PNGs. To rebuild them, install Pillow 12.3.0 and run `python scripts/prepare-assets.py`, then `pnpm build`. Processing crops, extracts and resizes existing artwork; it does not invent character imagery. This unofficial fan interface claims no franchise endorsement. See [NOTICE.md](NOTICE.md) for REM attribution and asset permissions.
