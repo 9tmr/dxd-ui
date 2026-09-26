@@ -1,0 +1,228 @@
+{
+  "akeno": {
+    "width": 400,
+    "height": 224,
+    "frames": [
+      {
+        "file": "assets/characters/akeno-ui.png",
+        "duration": 1
+      }
+    ]
+  },
+  "akeno_evening": {
+    "width": 400,
+    "height": 224,
+    "frames": [
+      {
+        "file": "assets/characters/akeno_evening-ui.png",
+        "duration": 1
+      }
+    ]
+  },
+  "akeno_sky": {
+    "width": 400,
+    "height": 224,
+    "frames": [
+      {
+        "file": "assets/characters/akeno_sky-ui.png",
+        "duration": 1
+      }
+    ]
+  },
+  "rias": {
+    "width": 400,
+    "height": 224,
+    "frames": [
+      {
+        "file": "assets/animations/rias/00.png",
+        "duration": 0.084
+      },
+      {
+        "file": "assets/animations/rias/01.png",
+        "duration": 0.084
+      },
+      {
+        "file": "assets/animations/rias/02.png",
+        "duration": 0.084
+      },
+      {
+        "file": "assets/animations/rias/03.png",
+        "duration": 0.084
+      },
+      {
+        "file": "assets/animations/rias/04.png",
+        "duration": 0.084
+      },
+      {
+        "file": "assets/animations/rias/05.png",
+        "duration": 0.084
+      },
+      {
+        "file": "assets/animations/rias/06.png",
+        "duration": 0.084
+      },
+      {
+        "file": "assets/animations/rias/07.png",
+        "duration": 0.084
+      },
+      {
+        "file": "assets/animations/rias/08.png",
+        "duration": 0.084
+      },
+      {
+        "file": "assets/animations/rias/09.png",
+        "duration": 0.084
+      },
+      {
+        "file": "assets/animations/rias/10.png",
+        "duration": 0.084
+      },
+      {
+        "file": "assets/animations/rias/11.png",
+        "duration": 0.084
+      },
+      {
+        "file": "assets/animations/rias/12.png",
+        "duration": 0.084
+      },
+      {
+        "file": "assets/animations/rias/13.png",
+        "duration": 0.084
+      },
+      {
+        "file": "assets/animations/rias/14.png",
+        "duration": 0.084
+      }
+    ]
+  },
+  "rias_still": {
+    "width": 400,
+    "height": 224,
+    "frames": [
+      {
+        "file": "assets/characters/rias-still.png",
+        "duration": 1
+      }
+    ]
+  },
+  "rias_end": {
+    "width": 400,
+    "height": 224,
+    "frames": [
+      {
+        "file": "assets/characters/rias-end.png",
+        "duration": 1
+      }
+    ]
+  },
+  "akeno_motion": {
+    "width": 400,
+    "height": 224,
+    "frames": [
+      {
+        "file": "assets/animations/akeno_motion/00.png",
+        "duration": 0.08375
+      },
+      {
+        "file": "assets/animations/akeno_motion/01.png",
+        "duration": 0.08375
+      },
+      {
+        "file": "assets/animations/akeno_motion/02.png",
+        "duration": 0.08375
+      },
+      {
+        "file": "assets/animations/akeno_motion/03.png",
+        "duration": 0.08375
+      },
+      {
+        "file": "assets/animations/akeno_motion/04.png",
+        "duration": 0.08375
+      },
+      {
+        "file": "assets/animations/akeno_motion/05.png",
+        "duration": 0.08375
+      },
+      {
+        "file": "assets/animations/akeno_motion/06.png",
+        "duration": 0.08375
+      },
+      {
+        "file": "assets/animations/akeno_motion/07.png",
+        "duration": 0.08375
+      },
+      {
+        "file": "assets/animations/akeno_motion/08.png",
+        "duration": 0.08375
+      },
+      {
+        "file": "assets/animations/akeno_motion/09.png",
+        "duration": 0.08375
+      },
+      {
+        "file": "assets/animations/akeno_motion/10.png",
+        "duration": 0.08375
+      },
+      {
+        "file": "assets/animations/akeno_motion/11.png",
+        "duration": 0.08375
+      },
+      {
+        "file": "assets/animations/akeno_motion/12.png",
+        "duration": 0.08375
+      },
+      {
+        "file": "assets/animations/akeno_motion/13.png",
+        "duration": 0.08375
+      },
+      {
+        "file": "assets/animations/akeno_motion/14.png",
+        "duration": 0.08375
+      },
+      {
+        "file": "assets/animations/akeno_motion/15.png",
+        "duration": 0.08375
+      }
+    ]
+  },
+  "akeno_motion_still": {
+    "width": 400,
+    "height": 224,
+    "frames": [
+      {
+        "file": "assets/characters/akeno_motion-still.png",
+        "duration": 1
+      }
+    ]
+  },
+  "akeno_motion_end": {
+    "width": 400,
+    "height": 224,
+    "frames": [
+      {
+        "file": "assets/characters/akeno_motion-end.png",
+        "duration": 1
+      }
+    ]
+  },
+  "rias_pixel": {
+    "width": 136,
+    "height": 180,
+    "frames": [
+      {
+        "file": "assets/characters/rias-sprite.png",
+        "duration": 1
+      }
+    ]
+  },
+  "akeno_pixel": {
+    "width": 138,
+    "height": 180,
+    "frames": [
+      {
+        "file": "assets/characters/akeno-sprite.png",
+        "duration": 1
+      }
+    ]
+  }
+}
