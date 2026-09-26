@@ -1,0 +1,20 @@
+{
+  "name": "dxd-ui",
+  "version": "1.0.0",
+  "private": true,
+  "description": "High School DxD inspired Drawing interface for Matcha Lua",
+  "scripts": {
+    "build": "node scripts/build.cjs",
+    "test": "node scripts/test.cjs",
+    "format": "node node_modules/@johnnymorganz/stylua-bin/run.js src examples tests",
+    "format:check": "node node_modules/@johnnymorganz/stylua-bin/run.js --check src examples tests",
+    "lint": "node scripts/lint.cjs",
+    "check": "node scripts/check.cjs",
+    "preview": "node scripts/preview.cjs"
+  },
+  "devDependencies": {
+    "fengari": "0.1.5",
+    "luaparse": "0.3.1",
+    "@johnnymorganz/stylua-bin": "2.5.2"
+  }
+}
