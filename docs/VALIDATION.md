@@ -18,3 +18,8 @@ Coverage includes real mouse navigation, keyboard activation, key capture, dropd
 This machine does not expose a runnable Matcha game host to the test tooling. Captures reproduce the library's real Drawing instructions through a canvas adapter; they are not screenshots of native Matcha. Native image decoding, GPU performance, host-specific drawing properties, Windows DPI, and live game mouse coordinates require a check in the user's Matcha installation. No native GPU benchmark, phone/touch support, screen-reader support or actual 3D rig is claimed.
 
 Audio is an optional tested provider contract; no audio engine or soundtrack is bundled. Distinct additional anime scenes require permitted source media. Repository publication and raw-file retrieval are verified separately when published.
+
+## Published release
+
+Repository: https://github.com/9tmr/dxd-ui. The public raw file returned HTTP 200 and matched the tested 2,288,153-byte release byte for byte. SHA-256: 0d1ed004a8fae978649b2cf7100604e1a93b6074573ed5f2e765d28ff803f746. A downloaded repository archive was compared against all tracked source files; all source, tests, configuration and assets matched. Documentation updates were published afterward.
+
